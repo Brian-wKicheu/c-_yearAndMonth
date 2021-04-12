@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-
+// uses swith to determine months of a year basing on the days the month has
     int year, month;
     cout << "enter year and month";
     cin >> year >> month;
