@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*this uses arithmetic operators +,-,*,/,% to calculate values using switch statement*/
 int main(){
     float num1, num2;
     char operation;
@@ -25,10 +25,10 @@ int main(){
         if (isNum1Int && isNum2Int)
             cout << num1 << operation << num2 << "=" << int(num1) % int(num2);
         else
-            cout <<"Not valid";
+            cout << " Not valid";
         break;
     
-    default:cout<<"Invalid value";
+    default:cout<< " nInvalid value";
         break;
     }
 }
